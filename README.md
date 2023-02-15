@@ -10,5 +10,5 @@ This is a simple weather app that allows users to check the weather conditions i
 
 💧 Current weather conditions - the app displays the current temperature, weather conditions (e.g. clear, clouds, mist), and humidity for the selected location.
 
-### ➡️ This app was built using HTML, CSS, and JavaScript, and is fully responsive for use on desktop and mobile devices.
+#### ➡️ This app was built using HTML, CSS, and JavaScript, and is fully responsive for use on desktop and mobile devices.
 
