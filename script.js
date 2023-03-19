@@ -43,28 +43,28 @@ const setWeather = () => {
 	});
 };
 
-const setWeatherImage = weatherDescriptonId => {
-	let imageSrc = './img/unknown.png';
+const setWeatherImage = weatherDescriptionId => {
+	let imageSrc;
 	switch (true) {
-		case weatherDescriptonId >= 200 && weatherDescriptonId < 300:
+		case weatherDescriptionId >= 200 && weatherDescriptionId < 300:
 			imageSrc = './img/thunderstorm.png';
 			break;
-		case weatherDescriptonId >= 300 && weatherDescriptonId < 400:
+		case weatherDescriptionId >= 300 && weatherDescriptionId < 400:
 			imageSrc = './img/drizzle.png';
 			break;
-		case weatherDescriptonId >= 500 && weatherDescriptonId < 600:
+		case weatherDescriptionId >= 500 && weatherDescriptionId < 600:
 			imageSrc = './img/rain.png';
 			break;
-		case weatherDescriptonId >= 600 && weatherDescriptonId < 700:
+		case weatherDescriptionId >= 600 && weatherDescriptionId < 700:
 			imageSrc = './img/ice.png';
 			break;
-		case weatherDescriptonId >= 700 && weatherDescriptonId < 800:
+		case weatherDescriptionId >= 700 && weatherDescriptionId < 800:
 			imageSrc = './img/fog.png';
 			break;
-		case weatherDescriptonId === 800:
+		case weatherDescriptionId === 800:
 			imageSrc = './img/sun.png';
 			break;
-		case weatherDescriptonId >= 801 && weatherDescriptonId < 809:
+		case weatherDescriptionId >= 801 && weatherDescriptionId < 809:
 			imageSrc = './img/cloud.png';
 			break;
 		default:
